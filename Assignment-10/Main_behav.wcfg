@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Main_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Main" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="550001000000001fs"></ZoomEndTime>
+      <Cursor1Time time="461489651463000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="88"></NameColumnWidth>
+      <ValueColumnWidth column_width="180"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="34" />
+   <wvobject type="logic" fp_name="/Main/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/button_in">
+      <obj_property name="ElementShortName">button_in[0:1]</obj_property>
+      <obj_property name="ObjectShortName">button_in[0:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main/rx_in">
+      <obj_property name="ElementShortName">rx_in</obj_property>
+      <obj_property name="ObjectShortName">rx_in</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/anode">
+      <obj_property name="ElementShortName">anode[0:3]</obj_property>
+      <obj_property name="ObjectShortName">anode[0:3]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/Z">
+      <obj_property name="ElementShortName">Z[0:6]</obj_property>
+      <obj_property name="ObjectShortName">Z[0:6]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main/tx_out">
+      <obj_property name="ElementShortName">tx_out</obj_property>
+      <obj_property name="ObjectShortName">tx_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main/clk9600">
+      <obj_property name="ElementShortName">clk9600</obj_property>
+      <obj_property name="ObjectShortName">clk9600</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main/clk_153600">
+      <obj_property name="ElementShortName">clk_153600</obj_property>
+      <obj_property name="ObjectShortName">clk_153600</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/A">
+      <obj_property name="ElementShortName">A[0:3]</obj_property>
+      <obj_property name="ObjectShortName">A[0:3]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/B">
+      <obj_property name="ElementShortName">B[0:3]</obj_property>
+      <obj_property name="ObjectShortName">B[0:3]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/C">
+      <obj_property name="ElementShortName">C[0:3]</obj_property>
+      <obj_property name="ObjectShortName">C[0:3]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/D">
+      <obj_property name="ElementShortName">D[0:3]</obj_property>
+      <obj_property name="ObjectShortName">D[0:3]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/read_addr">
+      <obj_property name="ElementShortName">read_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/write_addr">
+      <obj_property name="ElementShortName">write_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/addr">
+      <obj_property name="ElementShortName">addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/in_vect">
+      <obj_property name="ElementShortName">in_vect[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in_vect[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/out_vect">
+      <obj_property name="ElementShortName">out_vect[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_vect[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main/en">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/wen">
+      <obj_property name="ElementShortName">wen[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wen[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main/rx_full">
+      <obj_property name="ElementShortName">rx_full</obj_property>
+      <obj_property name="ObjectShortName">rx_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main/tx_empty">
+      <obj_property name="ElementShortName">tx_empty</obj_property>
+      <obj_property name="ObjectShortName">tx_empty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main/tx_start">
+      <obj_property name="ElementShortName">tx_start</obj_property>
+      <obj_property name="ObjectShortName">tx_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main/ld_tx">
+      <obj_property name="ElementShortName">ld_tx</obj_property>
+      <obj_property name="ObjectShortName">ld_tx</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main/rxd">
+      <obj_property name="ElementShortName">rxd</obj_property>
+      <obj_property name="ObjectShortName">rxd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main/txd">
+      <obj_property name="ElementShortName">txd</obj_property>
+      <obj_property name="ObjectShortName">txd</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/REG">
+      <obj_property name="ElementShortName">REG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">REG[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main/State_flag">
+      <obj_property name="ElementShortName">State_flag[0:2]</obj_property>
+      <obj_property name="ObjectShortName">State_flag[0:2]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main/d_flag">
+      <obj_property name="ElementShortName">d_flag</obj_property>
+      <obj_property name="ObjectShortName">d_flag</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/Main/State">
+      <obj_property name="ElementShortName">State</obj_property>
+      <obj_property name="ObjectShortName">State</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/Main/rear">
+      <obj_property name="ElementShortName">rear</obj_property>
+      <obj_property name="ObjectShortName">rear</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/Main/front">
+      <obj_property name="ElementShortName">front</obj_property>
+      <obj_property name="ObjectShortName">front</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/Main/queue_size">
+      <obj_property name="ElementShortName">queue_size</obj_property>
+      <obj_property name="ObjectShortName">queue_size</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/Main/temp">
+      <obj_property name="ElementShortName">temp</obj_property>
+      <obj_property name="ObjectShortName">temp</obj_property>
+   </wvobject>
+</wave_config>
